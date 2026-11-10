@@ -1,0 +1,8 @@
+import { CheckCircle2, Compass, Lightbulb, Users } from 'lucide-react';
+import CTA from '../components/CTA';
+
+export default function About() {
+  return <><section className="page-hero"><div className="container"><span className="eyebrow">ABOUT DIVSPAN TECH</span><h1>We make technology<br/><em>work for people.</em></h1><p>A web and software solutions agency focused on useful digital experiences, dependable development and long-term collaboration.</p></div></section>
+    <section className="section container about-intro"><div className="about-monogram">D<span>S</span><i>+</i></div><div><span className="eyebrow">WHO WE ARE</span><h2>Your ideas.<br/><em>Our digital craft.</em></h2><p>DivSpan Tech partners with businesses and individuals to turn ideas into practical digital products. We bring together design thinking and software development to create websites, online stores and custom business tools.</p><p>We work with clients in India and internationally, keeping communication clear and solutions aligned with real business goals.</p></div></section>
+    <section className="values-section section"><div className="container"><span className="eyebrow">WHAT GUIDES US</span><h2>Our working <em>principles.</em></h2><div className="values-grid">{[[Compass,'Purpose first','Start with the business problem, not just the technology.'],[Lightbulb,'Keep it clear','Make the experience understandable and easy to use.'],[Users,'Work together','Build through honest communication and shared decisions.'],[CheckCircle2,'Care about quality','Test carefully and plan for maintainability.']].map(([Icon,title,desc])=><article key={title}><Icon/><h3>{title}</h3><p>{desc}</p></article>)}</div></div></section><CTA/></>;
+}
