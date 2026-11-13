@@ -15,7 +15,7 @@ Open the local URL printed by Vite (usually http://localhost:5173).
 
 ## Admin
 - Login: http://localhost:5173/admin/login
-- Email: `admin@divspantech.com`
+- Email: `admin@divspan.com`
 - Password: `DivSpan@123`
 
 Admin routes:

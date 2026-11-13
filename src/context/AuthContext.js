@@ -2,7 +2,7 @@ import { createContext, useContext, useMemo, useState } from 'react';
 
 const AuthContext = createContext(null);
 const SESSION_KEY = 'divspan_admin_session_v1';
-const ADMIN_EMAIL = 'admin@divspantech.com';
+const ADMIN_EMAIL = 'admin@divspan.com';
 const ADMIN_PASSWORD = 'DivSpan@123';
 
 export function AuthProvider({ children }) {

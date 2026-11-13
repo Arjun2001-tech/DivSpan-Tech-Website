@@ -36,7 +36,7 @@ export default function Login() {
         <button className="button button-primary login-submit" type="submit" disabled={submitting}>{submitting ? 'Signing in…' : 'Sign in to dashboard'} <ArrowRight size={17}/></button>
       </form>
       <div className="login-security"><ShieldCheck size={16}/> Frontend demo login · Local browser only</div>
-      <p className="login-demo-credentials">Demo: admin@divspantech.com / DivSpan@123</p>
+      <p className="login-demo-credentials">Demo: admin@divspan.com / DivSpan@123</p>
     </div>
     <p className="login-footer">© {new Date().getFullYear()} DivSpan Tech · Secure administrator access</p>
   </div>;
