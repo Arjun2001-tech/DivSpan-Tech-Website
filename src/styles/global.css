@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
   font-family: 'DM Sans', sans-serif;
@@ -70,14 +70,16 @@ textarea {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  /* width: 42px;
+  height: 42px; */
+  width: 44px;
+  height: 48px;
   border-radius: 12px;
   display: grid;
   place-items: center;
   background: var(--navy);
   color: #fff;
-  font: 800 19px Manrope;
+  font: 800 19px DM Sans;
   letter-spacing: -2px;
   box-shadow: 0 6px 16px #10264b24;
 }
@@ -111,15 +113,15 @@ textarea {
   gap: 33px;
 }
 
-.main-nav > a:not(.button) {
+.main-nav>a:not(.button) {
   font-size: 13px;
   font-weight: 600;
   color: #53627a;
   transition: .2s;
 }
 
-.main-nav > a.active,
-.main-nav > a:not(.button):hover {
+.main-nav>a.active,
+.main-nav>a:not(.button):hover {
   color: var(--blue);
 }
 
@@ -499,14 +501,14 @@ textarea {
   flex-wrap: wrap;
 }
 
-.trust-inner > span {
+.trust-inner>span {
   font-size: 9px;
   font-weight: 800;
   letter-spacing: 1.5px;
   color: #94a1b3;
 }
 
-.trust-inner > b {
+.trust-inner>b {
   font: 700 12px Manrope;
   color: #53627a;
 }
@@ -545,7 +547,7 @@ textarea {
   margin: 0;
 }
 
-.section-heading > p,
+.section-heading>p,
 .page-hero p {
   font-size: 14px;
   line-height: 1.85;
@@ -805,7 +807,7 @@ textarea {
   font-size: 47px;
 }
 
-.why-grid > div:first-child > p,
+.why-grid>div:first-child>p,
 .about-intro p {
   font-size: 14px;
   line-height: 1.9;
@@ -819,14 +821,14 @@ textarea {
   gap: 0;
 }
 
-.why-points > div {
+.why-points>div {
   display: flex;
   gap: 20px;
   padding: 21px 0;
   border-bottom: 1px solid var(--line);
 }
 
-.why-points > div > span {
+.why-points>div>span {
   font: 800 12px Manrope;
   color: var(--blue);
   padding-top: 3px;
@@ -923,8 +925,8 @@ textarea {
   color: #fff;
 }
 
-.footer-main > div:not(:first-child) > a,
-.footer-main > div:not(:first-child) > span {
+.footer-main>div:not(:first-child)>a,
+.footer-main>div:not(:first-child)>span {
   display: flex;
   align-items: center;
   gap: 9px;
@@ -996,7 +998,7 @@ textarea {
   padding-left: 17px;
 }
 
-.process-step > span {
+.process-step>span {
   font: 800 11px Manrope;
   color: var(--blue);
 }
@@ -1123,14 +1125,14 @@ textarea {
   margin: 0;
 }
 
-.contact-info > p {
+.contact-info>p {
   font-size: 13px;
   line-height: 1.85;
   color: var(--muted);
   margin: 18px 0 25px;
 }
 
-.contact-info > a {
+.contact-info>a {
   display: flex;
   align-items: center;
   gap: 13px;
@@ -1138,7 +1140,7 @@ textarea {
   border-bottom: 1px solid var(--line);
 }
 
-.contact-info > a > span {
+.contact-info>a>span {
   width: 39px;
   height: 39px;
   display: grid;
@@ -1148,29 +1150,29 @@ textarea {
   border-radius: 9px;
 }
 
-.contact-info > a > span svg {
+.contact-info>a>span svg {
   width: 18px;
 }
 
-.contact-info > a > div {
+.contact-info>a>div {
   display: grid;
   gap: 4px;
   flex: 1;
 }
 
-.contact-info > a small {
+.contact-info>a small {
   font-size: 8px;
   color: #8997aa;
   letter-spacing: 1.2px;
   font-weight: 800;
 }
 
-.contact-info > a b {
+.contact-info>a b {
   font-size: 12px;
   color: var(--navy);
 }
 
-.contact-info > a > svg {
+.contact-info>a>svg {
   width: 15px;
   color: var(--blue);
 }
@@ -1201,7 +1203,7 @@ textarea {
   margin: 0;
 }
 
-.contact-form > p {
+.contact-form>p {
   font-size: 11px;
   color: #8290a5;
   margin: 8px 0 23px;
@@ -1274,7 +1276,7 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .process-grid > div:first-child {
+  .process-grid>div:first-child {
     grid-column: 1 / -1;
   }
 
@@ -1415,11 +1417,11 @@ textarea {
     gap: 15px 20px;
   }
 
-  .trust-inner > span {
+  .trust-inner>span {
     width: 100%;
   }
 
-  .trust-inner > b {
+  .trust-inner>b {
     font-size: 10px;
   }
 
@@ -1810,7 +1812,7 @@ textarea {
   font: 800 13px Manrope;
 }
 
-.admin-user > span:last-child {
+.admin-user>span:last-child {
   display: grid;
   gap: 3px;
   min-width: 0;
@@ -1866,7 +1868,7 @@ textarea {
   padding: 0 35px;
 }
 
-.admin-topbar > div {
+.admin-topbar>div {
   display: grid;
   gap: 4px;
 }
@@ -1878,7 +1880,7 @@ textarea {
   font-weight: 800;
 }
 
-.admin-topbar > div > b {
+.admin-topbar>div>b {
   font: 800 13px Manrope;
   color: var(--navy);
 }
@@ -1979,12 +1981,12 @@ textarea {
   font-weight: 700;
 }
 
-.dashboard-stat > b {
+.dashboard-stat>b {
   font: 800 25px Manrope;
   color: var(--navy);
 }
 
-.dashboard-stat > small {
+.dashboard-stat>small {
   font-size: 9px;
   color: #95a1b2;
 }
@@ -2021,7 +2023,7 @@ textarea {
   font-size: 8px;
 }
 
-.setup-list > div {
+.setup-list>div {
   display: flex;
   align-items: center;
   gap: 13px;
@@ -2029,7 +2031,7 @@ textarea {
   border-bottom: 1px solid #f0f3f8;
 }
 
-.setup-list > div:last-child {
+.setup-list>div:last-child {
   border-bottom: 0;
 }
 
@@ -2055,7 +2057,7 @@ textarea {
   color: #7e8da2;
 }
 
-.setup-list > div > div {
+.setup-list>div>div {
   display: grid;
   gap: 5px;
   flex: 1;
@@ -2196,7 +2198,7 @@ textarea {
     padding: 14px;
   }
 
-  .dashboard-stat > b {
+  .dashboard-stat>b {
     font-size: 22px;
   }
 
@@ -2204,7 +2206,7 @@ textarea {
     padding: 16px;
   }
 
-  .setup-list > div {
+  .setup-list>div {
     gap: 9px;
   }
 
@@ -2254,7 +2256,7 @@ textarea {
   padding-top: 17px;
 }
 
-.admin-quick-actions > a {
+.admin-quick-actions>a {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -2264,7 +2266,7 @@ textarea {
   color: var(--navy);
 }
 
-.admin-quick-actions > a > span {
+.admin-quick-actions>a>span {
   width: 38px;
   height: 38px;
   border-radius: 9px;
@@ -2275,7 +2277,7 @@ textarea {
   flex: none;
 }
 
-.admin-quick-actions > a > div {
+.admin-quick-actions>a>div {
   display: grid;
   gap: 5px;
   flex: 1;
@@ -2291,7 +2293,7 @@ textarea {
   color: #8290a5;
 }
 
-.admin-quick-actions > a > svg {
+.admin-quick-actions>a>svg {
   color: var(--blue);
 }
 
@@ -2379,7 +2381,7 @@ textarea {
   background: #fff;
 }
 
-.module-toolbar > span {
+.module-toolbar>span {
   font-size: 10px;
   color: #8290a5;
   white-space: nowrap;
@@ -2435,7 +2437,7 @@ textarea {
   flex: 1;
 }
 
-.admin-project-info > span,
+.admin-project-info>span,
 .enquiry-service {
   font-size: 9px;
   color: var(--blue);
@@ -2452,7 +2454,7 @@ textarea {
 }
 
 .admin-project-info p,
-.admin-enquiry-card > p {
+.admin-enquiry-card>p {
   font-size: 10px;
   line-height: 1.6;
   color: #718098;
@@ -2475,7 +2477,7 @@ textarea {
 }
 
 .admin-row-actions button,
-.admin-modal-head > button {
+.admin-modal-head>button {
   width: 34px;
   height: 34px;
   display: grid;
@@ -2531,7 +2533,7 @@ textarea {
   color: var(--blue);
 }
 
-.admin-enquiry-card > p {
+.admin-enquiry-card>p {
   font-size: 11px;
   white-space: pre-wrap;
   margin: 14px 0 18px;
@@ -2563,20 +2565,20 @@ textarea {
   padding-top: 12px;
 }
 
-.enquiry-card-bottom > small,
-.enquiry-card-bottom > div,
+.enquiry-card-bottom>small,
+.enquiry-card-bottom>div,
 .enquiry-card-bottom button {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
-.enquiry-card-bottom > small {
+.enquiry-card-bottom>small {
   font-size: 9px;
   color: #8997aa;
 }
 
-.enquiry-card-bottom > div {
+.enquiry-card-bottom>div {
   gap: 13px;
 }
 
@@ -2633,7 +2635,7 @@ textarea {
   margin: 0;
 }
 
-.admin-modal > label,
+.admin-modal>label,
 .admin-form-grid label {
   display: grid;
   gap: 7px;
@@ -2696,7 +2698,7 @@ textarea {
     display: none;
   }
 
-  .admin-sidebar > .admin-nav-link {
+  .admin-sidebar>.admin-nav-link {
     display: inline-flex;
     width: auto;
     padding: 9px 10px;
